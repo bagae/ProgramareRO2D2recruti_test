@@ -69,7 +69,7 @@ public class BasicOpModeForRecruits extends LinearOpMode {
 
 
 
-            //TODO: Alegeti-vă trei servomotoare și programați-le
+            //TODO: Alegeti-vă trei servomotoare și programați-le.Vei folosi metoda setPosition pentru a seta pozitia unui mecanism.
 
             // TODO: Adaugă mesaje pe telemetry (pentru debugging)
             // Ex: telemetry.addData("Timp rulare", "%.1f", runtime.seconds());

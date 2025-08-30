@@ -1,27 +1,16 @@
 package org.firstinspires.ftc.teamcode;
 
-import com.qualcomm.hardware.limelightvision.Limelight3A;
-import com.qualcomm.hardware.rev.RevColorSensorV3;
-import com.qualcomm.robotcore.hardware.ColorSensor;
+
 import com.qualcomm.robotcore.hardware.DcMotor;
-import com.qualcomm.robotcore.hardware.DcMotorEx;
-import com.qualcomm.robotcore.hardware.DcMotorSimple;
-import com.qualcomm.robotcore.hardware.DigitalChannel;
-import com.qualcomm.robotcore.hardware.DistanceSensor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.hardware.Servo;
 
-//import org.firstinspires.ftc.teamcode.pedroPathing.localization.PoseUpdater;
-//
-//import java.io.BufferedReader;
-//
-//import dev.frozenmilk.dairy.cachinghardware.CachingDcMotorEx;
 
 public class RobotMap {
 
 
     //TODO:Aici vei declara motoarele si servomotoarele
-    //Ex:public DcMotorEx frontRightDrive = null;
+    //Ex:public DcMotor frontRightDrive = null;
 
     public Servo mgn = null;
 
@@ -37,18 +26,18 @@ public class RobotMap {
          * PROPERTIES
          */
         //TODO: Noi folosim pe robotul nostru motoarele de pe sasiu fără encoder.Vei avea de setat motoarele să meargă fără encoder.
-        //Ex:frontRightDrive.setMode(DcMotorEx.RunMode.RUN_WITHOUT_ENCODER);
+        //Ex:frontRightDrive.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
 
         //setează directia motoarelor
-        frontLeftDrive.setDirection(DcMotorEx.Direction.REVERSE);
-        backLeftDrive.setDirection(DcMotorEx.Direction.REVERSE);
-        frontRightDrive.setDirection(DcMotorEx.Direction.FORWARD);
-        backRightDrive.setDirection(DcMotorEx.Direction.FORWARD);
+        frontLeftDrive.setDirection(DcMotor.Direction.REVERSE);
+        backLeftDrive.setDirection(DcMotor.Direction.REVERSE);
+        frontRightDrive.setDirection(DcMotor.Direction.FORWARD);
+        backRightDrive.setDirection(DcMotor.Direction.FORWARD);
 
 
 
 
-        //TODO:Vei seta Directia motoarelor
+        //TODO:Vei seta Directia servomotoarelor
 
         mgn.setDirection(Servo.Direction.REVERSE);
 
