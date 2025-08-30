@@ -1,5 +1,6 @@
 package org.firstinspires.ftc.teamcode;
 // TODO : Dacă ai nevoie poți importa clase sau librării suplimentare
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
@@ -8,6 +9,7 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 import org.firstinspires.ftc.teamcode.values;
 
 @TeleOp(name="cum_vreti_sa_apara_pe_driver_station", group="Linear OpMode")
+@Disabled
 public class BasicOpModeForRecruits extends LinearOpMode {
 
     // timer
@@ -80,3 +82,5 @@ public class BasicOpModeForRecruits extends LinearOpMode {
 
 // TODO: Dacă reușești să termini tot, poți face o clasă RobotMap
 // unde declari și inițializezi toate motoarele și servo-urile (comentariile în română)
+//TODO: Cum putem schimba codul astfel incat sa folosim si clasa RobotMap?
+//Indiciu:RobotMap r = new RobotMap(hardwareMap);
