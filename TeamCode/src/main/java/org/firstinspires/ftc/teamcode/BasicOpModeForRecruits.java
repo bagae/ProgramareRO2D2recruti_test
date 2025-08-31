@@ -82,6 +82,6 @@ public class BasicOpModeForRecruits extends LinearOpMode {
 //pentru a folosi valorile declarate in values ,vei folosi values.nume_valoare
 
 // TODO: Dacă reușești să termini tot, poți face o clasă RobotMap
-// unde declari și inițializezi toate motoarele și servo-urile (comentariile în română)
+// unde declari și inițializezi toate motoarele și servo-urile 
 //TODO: Cum putem schimba codul astfel incat sa folosim si clasa RobotMap?
 //Indiciu:RobotMap r = new RobotMap(hardwareMap);
