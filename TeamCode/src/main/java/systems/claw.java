@@ -15,7 +15,6 @@ public class claw {
     {
         INITIALIZE,
 
-        CLOSED_SAMPLE,
         OPENED,
         CLOSED,
         //TODO:adauga starea de inter_transfer
@@ -31,13 +30,13 @@ public class claw {
     public static clawStatus CS = INITIALIZE, PS = INITIALIZE;
 
 
-    public static double opened = 0.33;
-    public static double initialize = 0.43;
-
-    public static double claw_intern = 0.51;
-    public static double closed_sample = 0.56;
-
-    public static double inter_ransfer = 0.43;
+//    public static double opened = 0.33;
+//    public static double initialize = 0.43;
+//
+//    public static double claw_intern = 0.51;
+//    public static double closed_sample = 0.56;
+//
+//    public static double inter_ransfer = 0.43;
 
     public void update(RobotMap r)
     {
@@ -52,19 +51,11 @@ public class claw {
                     break;
                 }
 
-                case CLOSED:
-                {
-                    r.claw.setPosition();
-                    break;
-                }
 
-                case OPENED:
-                {
-                    r.claw.setPosition();
-                    break;
-                }
 
-               //TODO:adauga cazul de inter_transfer
+
+               //TODO:adauga cazurile  pentru celelalte stări
+
 
 
 

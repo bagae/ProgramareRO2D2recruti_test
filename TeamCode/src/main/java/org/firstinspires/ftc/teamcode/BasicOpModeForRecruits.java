@@ -9,7 +9,7 @@ import com.qualcomm.robotcore.util.ElapsedTime;
 import org.firstinspires.ftc.teamcode.values;
 
 @TeleOp(name="cum_vreti_sa_apara_pe_driver_station", group="Linear OpMode")
-@Disabled
+
 public class BasicOpModeForRecruits extends LinearOpMode {
 
     // timer
@@ -72,7 +72,7 @@ public class BasicOpModeForRecruits extends LinearOpMode {
             //TODO: Alegeti-vă trei servomotoare și programați-le.Vei folosi metoda setPosition pentru a seta pozitia unui mecanism.
             //Prima oara folosește butoanele de pe gamepad pentru a seta poziția servomotoarelor
             //Apoi setează pozițiile prestabilite folosind butoanele,utilizand state-urile din clasa definita pt state-uri
-            // TODO: Adaugă mesaje pe telemetry (pentru debugging)
+            // TODO: Adaugă mesaje pe telemetry (pentru debugging,recomandata pentru verificarea valorilor si rezolvarea problemelor)
             // Ex: telemetry.addData("Timp rulare", "%.1f", runtime.seconds());
             telemetry.update();
         }
